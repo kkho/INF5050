@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  1 FEB 2013 12:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  4 FEB 2013 17:50
 entering extended mode
  %&-line parsing enabled.
 **present.tex
@@ -850,23 +850,27 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 39.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 36.
 
 (/usr/share/texmf-texlive/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [2
 
-] [3
+]
+Overfull \vbox (69.75171pt too high) detected at line 73
+ []
+
+[3
 
 ] [4
 
@@ -884,29 +888,30 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 \tf@snm=\write9
 \openout9 = `present.snm'.
 
-
-(./present.aux)
+ (./present.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15065 strings out of 495046
- 277329 string characters out of 1181938
- 344568 words of memory out of 3000000
- 17830 multiletter control sequences out of 15000+50000
- 12730 words of font info for 48 fonts, out of 3000000 for 9000
+ 15098 strings out of 495046
+ 278226 string characters out of 1181938
+ 346566 words of memory out of 3000000
+ 17862 multiletter control sequences out of 15000+50000
+ 13035 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,54p,425b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/wasy/wasy10.pfb>
-Output written on present.pdf (6 pages, 77453 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/symbols/msam7.pfb></usr/share/texmf-texlive/fonts/type1/public/wasy/wasy1
+0.pfb>
+Output written on present.pdf (6 pages, 98763 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

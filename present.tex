@@ -14,7 +14,7 @@
 
 \author{Khiem-Kim Ho Xuan -- kkho@ifi.uio.no, \newline
 		Mattias Håheim Johnsen -- mattiahj@ifi.uio.no}
-\date{3. januar 2013}
+\date{1. March 2013}
 
 \begin{document}
 
@@ -23,14 +23,11 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Outline}
+  \frametitle{Outline}m
   \begin{itemize}
   \item Background
-  \item MPLS Fundamentals
-  \item Diff-serv and Contstraint-based routing
-  \item Control Plane
-  \item Forwarding Plane
-  \item Forwarding equivalence class
+  \item MPLS Fundamentals and Terminology
+  \item Control and Forwarding Plane
   \item Generalized MPLS
   \item GMPLS Recovery techniques
   \item Summary
@@ -42,7 +39,21 @@
   \frametitle{Background}
 
   \begin{itemize}
-	\item Internet
+	\item What is MPLS?
+		\begin{itemize}
+			\item Mechanism that directs data from one network node to the next based on on path labels rather than network addresses.
+			\item with such mechanism, we avoid lookups in a routing table
+			\item MPLS switches packets (IP packets) instead of routing packets to transport the data
+		\end{itemize}
+	
+	\item Why MPLS?
+		\begin{itemize}
+			\item Provide a highly scalable mechanism that was topology driven rather than flow driven
+			\item Load balance traffic to utilize network bandwidth efficiently
+			\item Allow core routers/networking devices to switch packets based on a simplified header
+			\item Remove the complexity and overhead of network managements (Assemple and reassemble IP packets)
+		\end{itemize}			
+	
 	
 	\end{itemize} 
 
@@ -62,9 +73,8 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{MPLS Fundamentals}
+  \frametitle{MPLS Fundamentals and Terminology}
 
-  Regler for de som vil konkurrere:
   \begin{itemize}
   \item 
     %\pause
@@ -75,11 +85,10 @@
 
 \begin{frame}
   \frametitle{Summary}
-
   \begin{itemize}
-  \item 
+  \item MPLS
     %\pause
-  \item 
+  \item GMPLS
   \end{itemize}
 \end{frame}
 
