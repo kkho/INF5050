@@ -9,9 +9,6 @@
 \subtitle[]{Multiprotocol Label Switching (MPLS) /\newline
 			Generalized Multiprotocol Label Switching (GMPLS) }
 
-% \includegraphics[width=1.5cm]{Puzzle.eps}} % note not shown
-
-
 \author{Khiem-Kim Ho Xuan -- kkho@ifi.uio.no, \newline
 		Mattias Håheim Johnsen -- mattiahj@ifi.uio.no}
 \date{1. March 2013}
@@ -91,12 +88,36 @@
   	\begin{itemize}
   		\item  a protocol suite extending MPLS to manage further classes of interfaces and switching technologies other than packet interfaces and switching, such as time division multiplex, layer-2 switch, wavelength switch and fiber-switch.
   	\end{itemize}
-  \item How does it work?
-  	\begin{itemize}
-  		\item
-  	\end{itemize}
   \end{itemize}
 \end{frame}
+
+\begin{frame}
+	\frametitle{GMPLS}
+	\begin{itemize}
+	
+
+	  		\item GMPLS is an extended form of MPLS and some of these improvements are:
+			\begin{itemize}
+				\item RSVP-TE
+				\item OSPF and IS-IS
+				\item New link-management protocol
+				\item Bi-directional LSP setup
+					\begin{itemize}
+						\item Reduce latency
+						\item Less control overhead
+						\item Route selection is simpler
+						\item Cleaner interface
+					\end{itemize}									
+			\item MPLS emphasizes the seperation of control plane and network plane
+			\item GMPLS extends this seperation and allows the control plane to be physically diverse from the associated data plane
+				
+			\end{itemize}		
+				\end{itemize}
+\end{frame}
+
+
+
+
 
 \begin{frame}
   \frametitle{GMPLS: Hierarchial LSP}
