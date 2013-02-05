@@ -23,8 +23,7 @@
   \begin{itemize}
   \item Background
   \item MPLS Fundamentals and Terminology
-  \item Control and Forwarding Plane
-  \item Generalized MPLS
+  \item GMPLS
   \item GMPLS Recovery techniques
   \item Summary
   \item Resources
@@ -74,11 +73,59 @@
   \frametitle{MPLS Fundamentals and Terminology}
 
   \begin{itemize}
-  \item 
+  \item Main idea:
+  		\begin{itemize}
+  			\item attach a short fixed-length label to packets at the ingress to an MPLS domain
+  			\item the labels are used to make the forwarding decisions.
+  		\end{itemize}
+  	\item   		
+  		
     %\pause
   \item 
   \end{itemize}
 \end{frame}
+
+
+\begin{frame}
+	\frametitle{Control Plane and Forwarding Plane}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Terminology}
+	
+	\begin{itemize}
+		\item FEC (Forwarding Equivalence Class)
+			\begin{itemize}
+				\item Group of IP packets which are forwarded in the same manner (e.g. over the same path, with the same priority and the same label)
+			\end{itemize}
+			
+		\item Label
+			\begin{itemize}
+				\item Short fixed length identifier which is used to identify a FEC
+			\end{itemize}						
+			
+		\item Label Swapping
+			\begin{itemize}
+				\item Looking up the oncoming label to determine the outgoing label, encapsulation and port
+			\end{itemize}
+			
+		\item Label switched path (LSP)
+			\begin{itemize}
+				\item Path through one or more LSR for a particular FEC
+			\end{itemize}
+		\item Label switching router (LSR)
+			\begin{itemize}
+				\item an MPLS capable router
+			\end{itemize}
+			
+			
+	\end{itemize}
+
+\end{frame}
+
+
+
 
 \begin{frame}
   \frametitle{GMPLS}
@@ -114,10 +161,6 @@
 			\end{itemize}		
 				\end{itemize}
 \end{frame}
-
-
-
-
 
 \begin{frame}
   \frametitle{GMPLS: Hierarchial LSP}
