@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  5 FEB 2013 11:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  5 FEB 2013 11:48
 entering extended mode
  %&-line parsing enabled.
 **present.tex
@@ -923,10 +923,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15139 strings out of 495046
- 278798 string characters out of 1181938
+ 15141 strings out of 495046
+ 278814 string characters out of 1181938
  346566 words of memory out of 3000000
- 17880 multiletter control sequences out of 15000+50000
+ 17882 multiletter control sequences out of 15000+50000
  11214 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,55p,425b,563s stack positions out of 5000i,500n,10000p,200000b,50000s
