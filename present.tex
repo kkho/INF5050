@@ -4,6 +4,7 @@
 \usepackage{soul}
 \usepackage{wasysym}
 \usecolortheme{wolverine}
+\usepackage{graphicx}
 
 \title[]{INF5050 - Protocols and routing in internet}
 \subtitle[]{Multiprotocol Label Switching (MPLS) /\newline
@@ -22,9 +23,10 @@
   \frametitle{Outline}
   \begin{itemize}
   \item Background
-  \item MPLS Fundamentals and Terminology
+  \item MPLS: Fundamentals
+  \item MPLS: Terminology
   \item GMPLS
-  \item GMPLS Recovery techniques
+  \item GMPLS: Recovery techniques
   \item Summary
   \item Resources
   \end{itemize}
@@ -70,7 +72,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{MPLS Fundamentals and Terminology}
+  \frametitle{MPLS Fundamentals}
 
   \begin{itemize}
   \item Main idea:
@@ -78,21 +80,58 @@
   			\item attach a short fixed-length label to packets at the ingress to an MPLS domain
   			\item the labels are used to make the forwarding decisions.
   		\end{itemize}
-  	\item   		
-  		
-    %\pause
-  \item 
+  	\item MPLS consists of a forwarding and a control plane. Though they are decoupled
+  	and independent from each other.
+  	\item Supports explicit routed path.
+  	\item Provides Quality of Service (QoS) if it is implemented with Diff-Serv and Constraint-based routing.
+
   \end{itemize}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Control Plane and Forwarding Plane}
+	\frametitle{Diff-Serv and Constraint-based routing}
+		\begin{itemize}
+			\item Differentiated Services
+				\begin{itemize}
+					\item A network architecture for classifying and managing network traffic and provide QoS on modern IP networks.
+					\item it is used to provide low-latency to critical network traffic. (Media, VOIP).
+				\end{itemize}
+			\item Constraint-based routing
+				\begin{itemize}
+					\item It is a routing technique where resource availability and traffic characterization are taken into account.
+				\end{itemize}
+		\end{itemize}
 
 \end{frame}
 
 \begin{frame}
-	\frametitle{Terminology}
+	\frametitle{MPLS Fundamentals}
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[scale=0.40]{separation.png}
+			\end{center}
+		\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{MPLS Fundamentals: Control Plane}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{MPLS Fundamentals: Forwarding Plane}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{MPLS architecture}
+	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{MPLS: Terminology}
 	
 	\begin{itemize}
 		\item FEC (Forwarding Equivalence Class)
@@ -123,6 +162,21 @@
 	\end{itemize}
 
 \end{frame}
+
+\begin{frame}
+	\frametitle{FEC}
+
+	Advantages?	
+	\begin{itemize}
+		\item 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Disadvantages of MPLS}
+	
+\end{frame}
+
 
 
 
