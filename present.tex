@@ -180,7 +180,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Label Distribution in MPLS}
+	\frametitle{Label Distribution in MPLS and how LSP works}
 \begin{figure}
 	%This is how you would give a good animation
     \includegraphics<1>[scale=0.5]{animations/routeInit.png}
@@ -191,16 +191,23 @@
     \includegraphics<6>[scale=0.5]{animations/labeltable3.png}
     \includegraphics<7>[scale=0.5]{animations/labeltable4.png}
     \includegraphics<8>[scale=0.4]{animations/labeltable5.png}
+    \includegraphics<9>[scale=0.4]{animations/path1.png}
+    \includegraphics<10>[scale=0.4]{animations/path2.png}
+    \includegraphics<11>[scale=0.4]{animations/path3.png}
     \caption{\only<1>{This is the initial phase}
     \only<2>{Request a path to a specific node, send to the lowest cost possible router}
     \only<3>{Route the message to the destination node}
-    \only<4>{A label table is initialized with information that when it receives the given label id, it is for this router 47.1}
+    \only<4>	{A label table is initialized with information that when it receives the given label id, it is for this router 47.1}
     \only<5>{Map its label id to the router that sent request}
     \only<6>{The router that receives the mapping data, adds it ot its labeltable and generates a "in" label}
     \only<7>{When finished, the next router sends the mapping date of which label
     will be added }    
     \only<8>{When it has reached the Ingress node, it will map the given label for the
     given destination IP}
+    \only<9>{Send message with packet to 47.1, you have now a path to choose}
+    \only<10>{When forwarded, you add label onto the packet, when it arrives to 
+    a node, it checks the label and replaces it to another one and forwards it}
+    \only<11>{When reached to the egress node, it will then remove the label and deliver to the specific destination}
     
     }
 
@@ -216,7 +223,7 @@
 	\begin{itemize}
 		\item constraint-based routing
 			\begin{itemize}
-				\item Problem with computation of paths for LSPs subject to various types of constranits.
+				\item Problem with computation of paths for LSPs subject to various types of constraints.
 				\item NP-complete problem
 			\end{itemize}
 		\item traffic partitioning and assignment
