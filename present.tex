@@ -176,8 +176,22 @@
 
 \begin{frame}
 	\frametitle{What is a Label?}
-
 	
+	\begin{itemize}
+		\item an extra layer that "sits" between L2 and L3 layer
+		known as header 2.5 (or "shim")
+		\item don't need to lookup at the routing table, you use the label information
+		to find the next hop
+		\item creates a VPN rather than public networks
+		\item isolates other traffics running on the network
+
+	\end{itemize}
+
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[scale=0.40]{header_mpls.png}
+			\end{center}
+		\end{figure}	
 	
 	
 \end{frame}
