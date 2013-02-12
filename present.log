@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  12 FEB 2013 13:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  12 FEB 2013 14:09
 entering extended mode
  %&-line parsing enabled.
 **present.tex
@@ -901,11 +901,11 @@ File: header_mpls.png Graphic file (type png)
  <./header_mpls.png (PNG copy)>] [15
 
 ]
-<animations/routeInit.png, id=402, 660.21657pt x 283.81032pt>
+<animations/routeInit.png, id=400, 660.21657pt x 283.81032pt>
 File: animations/routeInit.png Graphic file (type png)
 
 <use animations/routeInit.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
@@ -916,7 +916,7 @@ Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
 File: animations/routereq1.png Graphic file (type png)
 
 <use animations/routereq1.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
@@ -927,7 +927,7 @@ Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
 File: animations/routereq2.png Graphic file (type png)
 
 <use animations/routereq2.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
@@ -938,12 +938,12 @@ Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
 File: animations/labeltable1.png Graphic file (type png)
 
 <use animations/labeltable1.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
 
-Overfull \vbox (9.57181pt too high) detected at line 255
+Overfull \vbox (9.57181pt too high) detected at line 259
  []
 
 [19
@@ -953,7 +953,7 @@ Overfull \vbox (9.57181pt too high) detected at line 255
 File: animations/labeltable2.png Graphic file (type png)
 
 <use animations/labeltable2.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
@@ -964,12 +964,12 @@ Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
 File: animations/labeltable3.png Graphic file (type png)
 
 <use animations/labeltable3.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
 
-Overfull \vbox (9.57181pt too high) detected at line 255
+Overfull \vbox (9.57181pt too high) detected at line 259
  []
 
 [21
@@ -979,12 +979,12 @@ Overfull \vbox (9.57181pt too high) detected at line 255
 File: animations/labeltable4.png Graphic file (type png)
 
 <use animations/labeltable4.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 255--255
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 259--259
  [] 
  []
 
 
-Overfull \vbox (7.44264pt too high) detected at line 255
+Overfull \vbox (7.44264pt too high) detected at line 259
  []
 
 [22
@@ -1002,13 +1002,13 @@ File: animations/path1.png Graphic file (type png)
 <use animations/path1.png> [24
 
  <./animations/path1.png (PNG copy)>]
-<animations/path2.png, id=636, 699.36281pt x 352.31625pt>
+<animations/path2.png, id=637, 699.36281pt x 352.31625pt>
 File: animations/path2.png Graphic file (type png)
 
 <use animations/path2.png> [25
 
  <./animations/path2.png (PNG copy)>]
-<animations/path3.png, id=662, 699.36281pt x 352.31625pt>
+<animations/path3.png, id=663, 699.36281pt x 352.31625pt>
 File: animations/path3.png Graphic file (type png)
 
 <use animations/path3.png> [26
@@ -1043,10 +1043,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15261 strings out of 495046
- 281163 string characters out of 1181938
+ 15263 strings out of 495046
+ 281179 string characters out of 1181938
  346580 words of memory out of 3000000
- 17960 multiletter control sequences out of 15000+50000
+ 17962 multiletter control sequences out of 15000+50000
  11508 words of font info for 43 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,55p,425b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1056,7 +1056,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/symbols/msam7.pfb>
-Output written on present.pdf (32 pages, 735130 bytes).
+Output written on present.pdf (32 pages, 738034 bytes).
 PDF statistics:
  872 PDF objects out of 1000 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)
