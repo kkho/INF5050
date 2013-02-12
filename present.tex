@@ -51,15 +51,23 @@
             \item Avoids complex lookups in a routing table.
             \item Create end-to-end circuits using any protocol over any transport medium.
 			\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
-			\item Load balance traffic to utilize network bandwidth efficiently.
-			\item Allow core routers/networking devices to switch packets based on a simplified header.
-			\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).
+
 		\end{itemize}			
 	\end{itemize} 
 
   \bigskip
 
 \end{frame}
+
+\begin{frame}
+	\frametitle{Background}
+	\begin{itemize}
+			\item Load balance traffic to utilize network bandwidth efficiently.
+			\item Allow core routers/networking devices to switch packets based on a simplified header.
+			\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).		
+	\end{itemize}
+\end{frame}
+
 
 \begin{frame}
   \frametitle{MPLS was conceived, why?}
@@ -200,7 +208,17 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Label Distribution in MPLS and how LSP works}
+	\frametitle{What is a Label?}
+	Header information
+	\begin{itemize}
+		\item \bf{Label value: } 
+	\end{itemize}		
+	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Label distribution in MPLS and how LSP works}
 \begin{figure}
 	%This is how you would give a good animation
     \includegraphics<1>[scale=0.5]{animations/routeInit.png}
@@ -215,19 +233,20 @@
     \includegraphics<10>[scale=0.4]{animations/path2.png}
     \includegraphics<11>[scale=0.4]{animations/path3.png}
     \caption{\only<1>{This is the initial phase}
-    \only<2>{Request a path to a specific node, send to the lowest cost possible router}
+    \only<2>{Ingress node makes a request to the nearest node for a given destination address}
     \only<3>{Route the message to the destination node}
     \only<4>	{A label table is initialized with information that when it receives the given label id, it is for this router 47.1}
     \only<5>{Map its label id to the router that sent request}
-    \only<6>{The router that receives the mapping data, adds it ot its labeltable and generates a "in" label}
-    \only<7>{When finished, the next router sends the mapping date of which label
+    \only<6>{The router that receives the mapping data, adds it to its forwarding table and generates a "in" label}
+    \only<7>{When finished, the egress node sends the mapping date of which label
     will be added }    
     \only<8>{When it has reached the Ingress node, it will map the given label for the
     given destination IP}
-    \only<9>{Send message with packet to 47.1, you have now a path to choose}
+    \only<9>{Send message/packet to 47.1, the Ingress node makes a routing lookup and
+   assigns the given label for the destination}
     \only<10>{When forwarded, you add label onto the packet, when it arrives to 
     a node, it checks the label and replaces it to another one and forwards it}
-    \only<11>{When reached to the egress node, it will then remove the label and deliver to the specific destination}
+    \only<11>{When reached to the egress node, it will then strip out the label and deliver to the specific destination}
     
     }
 
