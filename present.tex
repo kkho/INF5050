@@ -37,26 +37,37 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{What is MPLS?}
-	\begin{itemize}
-	    \item MPLS is a scalable data-carrying mechanism that directs data from one network node to the next based on short path labels rather than network addresses.
-        \item Every network packet is assigned at least one label and packet-forwarding decisions are based on them exclusivly, rather than the content of the packets.
-        \item Operates somewhere between layer 2 (data link layer) and layer 3 (network layer). Considered a "layer 2.5" protocol.
-        \item Standardized by the IETF in 1996. Based on work done by Ipsilon Networks and Cisco.
-	\end{itemize}
+  \frametitle{Background}
+  \begin{itemize}
+	\item What is MPLS?
+		\begin{itemize}
+			\item MPLS is a scalable data-carrying mechanism that directs data from one network node to the next based on short path labels rather than network addresses.
+            \item Every network packet is assigned at least one label and packet-forwarding decisions are based on them exclusivly, rather than the content of the packets.
+            \item Operates somewhere between layer 2 (data link layer) and layer 3 (network layer). Considered a "layer 2.5" protocol.
+		\end{itemize}
+	
+	\item Why MPLS?
+		\begin{itemize}
+            \item Avoids complex lookups in a routing table.
+            \item Create end-to-end circuits using any protocol over any transport medium.
+			\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
+
+		\end{itemize}			
+	\end{itemize} 
+
+  \bigskip
+
 \end{frame}
 
 \begin{frame}
-  \frametitle{Why MPLS?}
+	\frametitle{Background}
 	\begin{itemize}
-        \item Avoids complex lookups in the routing table.
-        \item Create end-to-end circuits using any protocol over any transport medium.
-		\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
-		\item Load balance traffic to utilize network bandwidth efficiently.
-		\item Allow core routers/networking devices to switch packets based on a simplified header.
-		\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).		
+			\item Load balance traffic to utilize network bandwidth efficiently.
+			\item Allow core routers/networking devices to switch packets based on a simplified header.
+			\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).		
 	\end{itemize}
 \end{frame}
+
 
 \begin{frame}
   \frametitle{MPLS was conceived, why?}
