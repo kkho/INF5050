@@ -41,16 +41,19 @@
   \begin{itemize}
 	\item What is MPLS?
 		\begin{itemize}
-			\item Mechanism that directs data from one network node to the next based on on path labels rather than network addresses.
-			\item MPLS switches packets (IP packets) instead of routing packets to transport the data
+			\item MPLS is a scalable data-carrying mechanism that directs data from one network node to the next based on short path labels rather than network addresses.
+            \item Every network packet is assigned at least one label and packet-forwarding decisions are based on them exclusivly, rather than the content of the packets.
+            \item Operates somewhere between layer 2 (data link layer) and layer 3 (network layer). Considered a "layer 2.5" protocol.
 		\end{itemize}
 	
 	\item Why MPLS?
 		\begin{itemize}
-			\item Provide a highly scalable mechanism that was topology driven rather than flow driven
-			\item Load balance traffic to utilize network bandwidth efficiently
-			\item Allow core routers/networking devices to switch packets based on a simplified header
-			\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets)
+            \item Avoids complex lookups in a routing table.
+            \item Create end-to-end circuits using any protocol over any transport medium.
+			\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
+			\item Load balance traffic to utilize network bandwidth efficiently.
+			\item Allow core routers/networking devices to switch packets based on a simplified header.
+			\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).
 		\end{itemize}			
 	\end{itemize} 
 
@@ -247,11 +250,15 @@
 			\begin{itemize}
 				\item This problem deals with the optimal partitioning and assignment of traffic to parallel LSPs between pairs of MPLS ingress and egress nodes.
 			\end{itemize}					
-		\item restoration
+		\item Low visibility and lack of access into the MPLS cloud. How to monitor that your carrier is delivering the correct performance? 
+            \begin{itemize}
+                \item Trace-route and ping no longer an option.
+                \item Probes are costly and difficult to maintain.
+            \end{itemize}
+        \item restoration
 		\begin{itemize}
 			\item many proposals for restoration in ATM might be applicable to MPLS.
 		\end{itemize}				
-		
 	\end{itemize}
 \end{frame}
 
