@@ -112,7 +112,7 @@
 	\frametitle{MPLS architecture}
 		\begin{figure}[h]
 			\begin{center}
-				\includegraphics[scale=0.40]{separation.png}
+				\includegraphics[scale=0.40]{mpls-arch.png}
 			\end{center}
 		\end{figure}	
 \end{frame}
@@ -120,6 +120,7 @@
 
 \begin{frame}
 	\frametitle{MPLS architecture}
+	The planes are decoupled and independent of one another. 
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[scale=0.40]{separation.png}
@@ -129,11 +130,30 @@
 
 \begin{frame}
 	\frametitle{MPLS Fundamentals: Control Plane}
-	
+	\begin{itemize}
+		\item Collection of protocols that establish network level functionality in the
+		MPLS networks.
+		\begin{itemize}
+			\item The protocols themselves are implemented as software processes to communicate with each other across node boundaries using message passing.
+		\end{itemize}
+		\item They facilitate the establishment of label switched paths in the MPLS networks.
+		\item The plane consist of the legacy IP routing and signaling protocols.
+		
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{MPLS Fundamentals: Forwarding Plane}
+	\begin{itemize}
+		\item Consists of the datapath within a network element through which user traffic traverses.
+		\item The forwarding plne performs label swapping operations using lookup tables and miscellaneous packet treatment functions such as scheduling, queue management, rate shaping , policing and others. 
+		\item It is generally implemented in hardware due to high speed operation support.
+	\end{itemize}
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[scale=0.37]{label.png}
+			\end{center}
+		\end{figure}	
 	
 \end{frame}
 
