@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  15 FEB 2013 13:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.9)  15 FEB 2013 14:18
 entering extended mode
  %&-line parsing enabled.
 **present.tex
@@ -894,148 +894,143 @@ File: separation.png Graphic file (type png)
 File: label.png Graphic file (type png)
 
 <use label.png>
-Overfull \vbox (8.61128pt too high) detected at line 158
+Overfull \vbox (8.61128pt too high) detected at line 159
  []
 
 [11
 
  <./label.png>] [12
 
-] [13
-
-]
-<header_mpls.png, id=351, 486.81876pt x 203.76125pt>
+] <header_mpls.png, id=325, 486.81876pt x 203.76125pt>
 File: header_mpls.png Graphic file (type png)
- <use header_mpls.png>
-[14
 
- <./header_mpls.png (PNG copy)>] [15
+<use header_mpls.png> [13
+
+ <./header_mpls.png (PNG copy)>] [14
 
 ]
-<animations/routeInit.png, id=403, 660.21657pt x 283.81032pt>
+<animations/routeInit.png, id=378, 660.21657pt x 283.81032pt>
 File: animations/routeInit.png Graphic file (type png)
 
 <use animations/routeInit.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
+ [] 
+ []
+
+[15
+
+ <./animations/routeInit.png (PNG copy)>]
+<animations/routereq1.png, id=406, 660.21657pt x 283.81032pt>
+File: animations/routereq1.png Graphic file (type png)
+
+<use animations/routereq1.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
  []
 
 [16
 
- <./animations/routeInit.png (PNG copy)>]
-<animations/routereq1.png, id=431, 660.21657pt x 283.81032pt>
-File: animations/routereq1.png Graphic file (type png)
+ <./animations/routereq1.png (PNG copy)>]
+<animations/routereq2.png, id=432, 660.21657pt x 283.81032pt>
+File: animations/routereq2.png Graphic file (type png)
 
-<use animations/routereq1.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+<use animations/routereq2.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
  []
 
 [17
 
- <./animations/routereq1.png (PNG copy)>]
-<animations/routereq2.png, id=457, 660.21657pt x 283.81032pt>
-File: animations/routereq2.png Graphic file (type png)
+ <./animations/routereq2.png (PNG copy)>]
+<animations/labeltable1.png, id=458, 660.21657pt x 352.31625pt>
+File: animations/labeltable1.png Graphic file (type png)
 
-<use animations/routereq2.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+<use animations/labeltable1.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
+ []
+
+
+Overfull \vbox (9.57181pt too high) detected at line 266
  []
 
 [18
 
- <./animations/routereq2.png (PNG copy)>]
-<animations/labeltable1.png, id=483, 660.21657pt x 352.31625pt>
-File: animations/labeltable1.png Graphic file (type png)
+ <./animations/labeltable1.png (PNG copy)>]
+<animations/labeltable2.png, id=484, 660.21657pt x 352.31625pt>
+File: animations/labeltable2.png Graphic file (type png)
 
-<use animations/labeltable1.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+<use animations/labeltable2.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
- []
-
-
-Overfull \vbox (9.57181pt too high) detected at line 274
  []
 
 [19
 
- <./animations/labeltable1.png (PNG copy)>]
-<animations/labeltable2.png, id=510, 660.21657pt x 352.31625pt>
-File: animations/labeltable2.png Graphic file (type png)
+ <./animations/labeltable2.png (PNG copy)>]
+<animations/labeltable3.png, id=511, 660.21657pt x 352.31625pt>
+File: animations/labeltable3.png Graphic file (type png)
 
-<use animations/labeltable2.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+<use animations/labeltable3.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
+ []
+
+
+Overfull \vbox (9.57181pt too high) detected at line 266
  []
 
 [20
 
- <./animations/labeltable2.png (PNG copy)>]
-<animations/labeltable3.png, id=536, 660.21657pt x 352.31625pt>
-File: animations/labeltable3.png Graphic file (type png)
+ <./animations/labeltable3.png (PNG copy)>]
+<animations/labeltable4.png, id=537, 660.21657pt x 352.31625pt>
+File: animations/labeltable4.png Graphic file (type png)
 
-<use animations/labeltable3.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
+<use animations/labeltable4.png>
+Overfull \hbox (22.8176pt too wide) in paragraph at lines 266--266
  [] 
  []
 
 
-Overfull \vbox (9.57181pt too high) detected at line 274
+Overfull \vbox (7.44264pt too high) detected at line 266
  []
 
 [21
 
- <./animations/labeltable3.png (PNG copy)>]
-<animations/labeltable4.png, id=562, 660.21657pt x 352.31625pt>
-File: animations/labeltable4.png Graphic file (type png)
-
-<use animations/labeltable4.png>
-Overfull \hbox (22.8176pt too wide) in paragraph at lines 274--274
- [] 
- []
-
-
-Overfull \vbox (7.44264pt too high) detected at line 274
- []
-
-[22
-
  <./animations/labeltable4.png (PNG copy)>]
-<animations/labeltable5.png, id=588, 703.12688pt x 352.31625pt>
+<animations/labeltable5.png, id=563, 703.12688pt x 352.31625pt>
 File: animations/labeltable5.png Graphic file (type png)
 
-<use animations/labeltable5.png> [23
+<use animations/labeltable5.png> [22
 
- <./animations/labeltable5.png (PNG copy)>] <animations/path1.png, id=614, 699.
+ <./animations/labeltable5.png (PNG copy)>] <animations/path1.png, id=589, 699.
 36281pt x 352.31625pt>
 File: animations/path1.png Graphic file (type png)
 
-<use animations/path1.png> [24
+<use animations/path1.png> [23
 
  <./animations/path1.png (PNG copy)>]
-<animations/path2.png, id=640, 699.36281pt x 352.31625pt>
+<animations/path2.png, id=615, 699.36281pt x 352.31625pt>
 File: animations/path2.png Graphic file (type png)
 
-<use animations/path2.png> [25
+<use animations/path2.png> [24
 
  <./animations/path2.png (PNG copy)>]
-<animations/path3.png, id=666, 699.36281pt x 352.31625pt>
+<animations/path3.png, id=640, 699.36281pt x 352.31625pt>
 File: animations/path3.png Graphic file (type png)
 
-<use animations/path3.png> [26
+<use animations/path3.png> [25
 
- <./animations/path3.png (PNG copy)>] [27
+ <./animations/path3.png (PNG copy)>] [26
 
 ]
-[28
+[27
+
+] [28
 
 ] [29
 
 ] [30
-
-] [31
-
-] [32
 
 ]
 \tf@nav=\write7
@@ -1054,11 +1049,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15272 strings out of 495046
- 281322 string characters out of 1181938
+ 15236 strings out of 495046
+ 280318 string characters out of 1181938
  346580 words of memory out of 3000000
- 17970 multiletter control sequences out of 15000+50000
- 11508 words of font info for 43 fonts, out of 3000000 for 9000
+ 17938 multiletter control sequences out of 15000+50000
+ 11203 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,55p,425b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
@@ -1067,9 +1062,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/symbols/msam7.pfb>
-Output written on present.pdf (32 pages, 785687 bytes).
+Output written on present.pdf (30 pages, 774788 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

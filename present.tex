@@ -137,8 +137,9 @@
 			\item The protocols themselves are implemented as software processes to communicate with each other across node boundaries using message passing.
 		\end{itemize}
 		\item They facilitate the establishment of label switched paths in the MPLS networks.
+		\item The control plane has to distribute and manage network topology and resource availability information using a routing protocol and perform signaling functions to establish or tear-down LSPs.
 		\item The plane consist of the legacy IP routing and signaling protocols.
-		
+
 	\end{itemize}
 \end{frame}
 
@@ -192,17 +193,8 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{FEC}
-
-	Advantages?	
-	\begin{itemize}
-		\item 
-	\end{itemize}
-\end{frame}
-
-\begin{frame}
 	\frametitle{What is a Label?}
-	
+		
 	\begin{itemize}
 		\item an extra layer that "sits" between L2 and L3 layer
 		known as header 2.5 (or "shim")
@@ -274,30 +266,30 @@
 \end{frame}
 
 
-\begin{frame}
-\frametitle{Disadvantages of MPLS}
-	MPLS has performance issues in the network:
-	\begin{itemize}
-		\item constraint-based routing
-			\begin{itemize}
-				\item Problem with computation of paths for LSPs subject to various types of constraints.
-				\item NP-complete problem
-			\end{itemize}
-		\item traffic partitioning and assignment
-			\begin{itemize}
-				\item This problem deals with the optimal partitioning and assignment of traffic to parallel LSPs between pairs of MPLS ingress and egress nodes.
-			\end{itemize}					
-		\item Low visibility and lack of access into the MPLS cloud. How to monitor that your carrier is delivering the correct performance? 
-            \begin{itemize}
-                \item Trace-route and ping no longer an option.
-                \item Probes are costly and difficult to maintain.
-            \end{itemize}
-        \item restoration
-		\begin{itemize}
-			\item many proposals for restoration in ATM might be applicable to MPLS.
-		\end{itemize}				
-	\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Disadvantages of MPLS}
+%	MPLS has performance issues in the network:
+%	\begin{itemize}
+%		\item constraint-based routing
+%			\begin{itemize}
+%				\item Problem with computation of paths for LSPs subject to various types of constraints.
+%				\item NP-complete problem
+%			\end{itemize}
+%		\item traffic partitioning and assignment
+%			\begin{itemize}
+%				\item This problem deals with the optimal partitioning and assignment of traffic to parallel LSPs between pairs of MPLS ingress and egress nodes.
+%			\end{itemize}					
+%		\item Low visibility and lack of access into the MPLS cloud. How to monitor that your carrier is delivering the correct performance? 
+ %           \begin{itemize}
+ %              \item Trace-route and ping no longer an option.
+ %               \item Probes are costly and difficult to maintain.
+ %           \end{itemize}
+ %       \item restoration
+ %		\begin{itemize}
+ %			\item many proposals for restoration in ATM might be applicable to MPLS.
+ %		\end{itemize}				
+ %	\end{itemize}
+ % \end{frame}
 
 \begin{frame}
   \frametitle{GMPLS}
@@ -307,32 +299,32 @@
   	\begin{itemize}
   		\item  a protocol suite extending MPLS to manage further classes of interfaces and switching technologies other than packet interfaces and switching, such as time division multiplex, layer-2 switch, wavelength switch and fiber-switch.
   	\end{itemize}
+  \item GMPLS advocates and promotes explicit separation of the control plane from the underlying data/forwarding plane.
+  \item Gives the ability to let products from different vendors to inter-operate at a control level in different types of switched transport networks.
+
   \end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{GMPLS}
+	\begin{itemize}								
+  \item Allows new and innovative ways to inter-connect various technologies and different layers, without restricting the way individual layers interwork with each other. 
+  \item It simplifies the design, deployment and operations management of heterogeneous networks consisting of an assortment of packet and circuit switched equipment from different manufacturers.
+  \item consists of three main aspects: routing , signaling and link management.
+\end{itemize}		
 	\begin{itemize}
-	
-
-	  		\item GMPLS is an extended form of MPLS and some of these improvements are:
-			\begin{itemize}
-				\item RSVP-TE
-				\item OSPF and IS-IS
-				\item New link-management protocol
-				\item Bi-directional LSP setup
-					\begin{itemize}
-						\item Reduce latency
-						\item Less control overhead
-						\item Route selection is simpler
-						\item Cleaner interface
-					\end{itemize}									
-			\item MPLS emphasizes the seperation of control plane and network plane
-			\item GMPLS extends this seperation and allows the control plane to be physically diverse from the associated data plane
-				
-			\end{itemize}		
-				\end{itemize}
+		\item It also explicitly decouples the control channel from the transport or bearer channels.
+		\begin{itemize}
+		\item gives an important implications on the fault handling characteristics of the control plane.
+		\item failure in the control plane does not imply failure of the transport plane.
+		\end{itemize}
+	\end{itemize}
 \end{frame}
+
+\begin{frame}
+
+\end{frame}
+
 
 \begin{frame}
   \frametitle{GMPLS: Hierarchial LSP}
