@@ -73,7 +73,7 @@
     \begin{itemize}
         \item They facilitate the establishment of label switched paths in the MPLS networks by setting them up and tearing them down using signaling functions.
 		\item The control plane distributes and manages network topology and resource availability information using a routing protocol
-		\item These protocols include the legacy IP routing and signaling protocols.
+		\item For traffic engineering applications these protocols include the legacy IP routing and signaling protocols and extensions that provide the required functionality (ISIS-TE, OSPF-TE, RSVP-TE, CR-LDP, BGP).
 	\end{itemize}
     \end{itemize}
 \end{frame}
@@ -96,24 +96,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Diff-Serv and Constraint-based routing}
-		\begin{itemize}
-			\item Differentiated Services
-				\begin{itemize}
-					\item A network architecture for classifying and managing network traffic and provide QoS on modern IP networks.
-					\item it is used to provide low-latency to critical network traffic. (Media, VOIP).
-				\end{itemize}
-			\item Constraint-based routing
-				\begin{itemize}
-					\item It is a routing technique where resource availability and traffic characterization are taken into account.
-				\end{itemize}
-		\end{itemize}
-
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{MPLS architecture}
+	\frametitle{MPLS Architecture: Figure 1}
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[scale=0.40]{mpls-arch.png}
@@ -121,10 +104,8 @@
 		\end{figure}	
 \end{frame}
 
-
 \begin{frame}
-	\frametitle{MPLS architecture}
-	The planes are decoupled and independent of one another. 
+	\frametitle{MPLS Architecture: Figure 2}
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[scale=0.40]{separation.png}
@@ -235,6 +216,29 @@
 
 \end{figure}  	
 \end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Diff-Serv and Constraint-based routing}
+		\begin{itemize}
+			\item Differentiated Services
+				\begin{itemize}
+					\item A network architecture for classifying and managing network traffic and provide QoS on modern IP networks.
+					\item it is used to provide low-latency to critical network traffic. (Media, VOIP).
+				\end{itemize}
+			\item Constraint-based routing
+				\begin{itemize}
+					\item It is a routing technique where resource availability and traffic characterization are taken into account.
+				\end{itemize}
+		\end{itemize}
+
+\end{frame}
+
+
+
+
+
 
 \begin{frame}
 \frametitle{Traffic Engineering}
