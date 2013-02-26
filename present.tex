@@ -29,8 +29,7 @@
   \item GMPLS
   \item GMPLS: Recovery techniques
   \item Summary
-  \item Resources
-  
+  \item Resources 
   \end{itemize}
 \end{frame}
 
@@ -48,46 +47,53 @@
   \frametitle{Why MPLS?}
 	\begin{itemize}
         \item Avoids complex lookups in the routing table.
-        \item Create end-to-end circuits using any protocol over any transport medium.
-		\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
-		\item Load balance traffic to utilize network bandwidth efficiently.
 		\item Allow core routers/networking devices to switch packets based on a simplified header.
+        \item Create end-to-end circuits using any protocol over any IP capable transport medium.
+		\item Provide a highly scalable mechanism that was topology driven rather than flow driven.
+		\item Provides load-balancing functionality for traffic to utilize network bandwidth more efficiently.
 		\item Remove the complexity and overhead of network managements (Assemble and reassemble IP packets).		
+        \item Shortest path routing protocols like IS-IS and OSPF do not take capacity characteristics into account when making routing decisions. This leads to some network nodes being congested while others remain under-utilized.
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{MPLS was conceived, why?}
-  	\begin{itemize}
-  		\item The shortest path routing protocols like IS-IS and OSPF
-  			\begin{itemize}
-  				\item Did not take capacity characteristics into account while
-  				making the routing decisions
-  				\item The outcome is, segmentation over the network which leads
-  				to congestion, while others remain under-utilized.
-  			\end{itemize}
-  		\item MPLS reduces the complexity and redundancies by adding new network
-  		functionalities.
-  	\end{itemize}
+    \frametitle{MPLS Fundamentals}
+    \begin{itemize}
+        \item By attaching a short fixed-length label to packets at the ingress to an MPLS domain these labels can be used to make forwarding decisions within that domain.
+        \item These label switched paths may be explicitly routed if desired and can provides QoS if it is implemented with Diff-Serv and Constraint-based routing.
+        \item MPLS consists of a control plane and a forwarding plane that are decoupled/independent.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{MPLS Fundamentals}
-
-  \begin{itemize}
-  \item Main idea:
-  		\begin{itemize}
-  			\item attach a short fixed-length label to packets at the ingress to an MPLS domain
-  			\item the labels are used to make the forwarding decisions.
-  		\end{itemize}
-  	\item MPLS consists of a forwarding and a control plane. Though they are decoupled
-  	and independent from each other.
-  	\item Supports explicit routed path.
-  	\item Provides Quality of Service (QoS) if it is implemented with Diff-Serv and Constraint-based routing.
-
-  \end{itemize}
+	\frametitle{MPLS Fundamentals: Control Plane}
+	\begin{itemize}
+	    \item The MPLS control plane is a collection of protocols that provide network level functionality in MPLS networks.
+	    \item These protocols are implemented as software processes that communicate with each other across node boundaries using message passing techniques.
+    \begin{itemize}
+        \item They facilitate the establishment of label switched paths in the MPLS networks by setting them up and tearing them down using signaling functions.
+		\item The control plane distributes and manages network topology and resource availability information using a routing protocol
+		\item These protocols include the legacy IP routing and signaling protocols.
+	\end{itemize}
+    \end{itemize}
 \end{frame}
 
+\begin{frame}
+	\frametitle{MPLS Fundamentals: Forwarding Plane}
+    \begin{itemize}
+    \item The MPLS forwarding plane is the datapath user traffic is sent through. 
+	    \begin{itemize}
+		    \item The forwarding plane performs label swapping operations using lookup tables.
+            \item Additionally it performs all miscellaneous packet treatment functions such as scheduling, queue management, rate shaping, policing and others.
+		    \item It is generally implemented in hardware due to the need for such operations to be done really quickly.
+	    \end{itemize}
+    \end{itemize}
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[scale=0.35]{label.png}
+		\end{center}
+	\end{figure}	
+\end{frame}
 
 \begin{frame}
 	\frametitle{Diff-Serv and Constraint-based routing}
@@ -125,37 +131,6 @@
 			\end{center}
 		\end{figure}
 \end{frame}
-
-\begin{frame}
-	\frametitle{MPLS Fundamentals: Control Plane}
-	\begin{itemize}
-		\item Collection of protocols that establish network level functionality in the
-		MPLS networks.
-		\begin{itemize}
-			\item The protocols themselves are implemented as software processes to communicate with each other across node boundaries using message passing.
-		\end{itemize}
-		\item They facilitate the establishment of label switched paths in the MPLS networks.
-		\item The control plane has to distribute and manage network topology and resource availability information using a routing protocol and perform signaling functions to establish or tear-down LSPs.
-		\item The plane consist of the legacy IP routing and signaling protocols.
-
-	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{MPLS Fundamentals: Forwarding Plane}
-	\begin{itemize}
-		\item Consists of the datapath within a network element through which user traffic traverses.
-		\item The forwarding plne performs label swapping operations using lookup tables and miscellaneous packet treatment functions such as scheduling, queue management, rate shaping , policing and others. 
-		\item It is generally implemented in hardware due to high speed operation support.
-	\end{itemize}
-		\begin{figure}[h]
-			\begin{center}
-				\includegraphics[scale=0.37]{label.png}
-			\end{center}
-		\end{figure}	
-	
-\end{frame}
-
 
 \begin{frame}
 	\frametitle{MPLS: Terminology}
